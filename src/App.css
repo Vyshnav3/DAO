@@ -1,0 +1,97 @@
+
+body {
+  background-color: black;
+  color: white;
+}
+.App {
+  text-align: center;
+  color: white;  
+}
+.cont {
+  display: flex;
+  justify-content: flex-end;
+}
+.connectmeta{
+
+  color: white;
+  background-color: rgb(85, 84, 84);
+  cursor: pointer;
+  height: 25px;
+  margin-right: 10px;
+  width:160px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.container {
+  text-align: center;
+}
+
+input {
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 170px;
+  margin-bottom: 10px;
+}
+
+.submitbutton {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.submitbutton:hover {
+  background-color: #0056b3;
+}
+
+hr {
+  border: 0;
+  margin: 1.35em auto;
+  max-width: 100%;
+  background-position: 50%;
+  box-sizing: border-box;
+  color: white;
+  
+  border-width: 0 0 2px;
+  border-style: solid;
+   width: 400px;
+}
+.proposals-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.proposal-item {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: 400px;
+}
+
+.proposal-item p {
+  margin: 5px 0;
+}
+
+.proposal-item button {
+  margin-right: 5px;
+}
+
+.proposal-item p:last-child {
+  margin-bottom: 0;
+}
+.toggle-button {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+
+
+
+
