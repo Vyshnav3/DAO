@@ -7,8 +7,9 @@
 
 
 ## To run locally
+### `npm install`
 ### `npm start`
-### `npm build`
+
 
 ## Technology Stack
 - React
